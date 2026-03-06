@@ -143,3 +143,25 @@
                                 grid-template-columns: 1fr;
                             }
                         }
+
+                        @media (max-width: 768px) {
+
+                            .hero {
+                                height: auto;
+                                padding: 60px 0;
+                            }
+
+                            .hero-content h1 {
+                                font-size: 32px;
+                            }
+
+                            .cards {
+                                grid-template-columns: 1fr;
+                            }
+
+                            .about-top {
+                                grid-template-columns: 1fr;
+                                gap: 20px;
+                            }
+
+                        }
